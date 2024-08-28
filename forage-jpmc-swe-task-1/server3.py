@@ -32,9 +32,7 @@ from random import normalvariate, random
 from socketserver import ThreadingMixIn
 
 import dateutil.parser
-# from dateutil import parse
-# from dateutil.parser import parse
-# 
+
 ################################################################################
 #
 # Config

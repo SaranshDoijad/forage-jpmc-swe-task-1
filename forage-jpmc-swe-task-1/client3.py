@@ -46,6 +46,7 @@ def getRatio(price_a, price_b):
             return 
     return price_a/price_b
 
+
 # Main
 if __name__ == "__main__":
     # Query the price once every N seconds.
@@ -60,4 +61,3 @@ if __name__ == "__main__":
             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
 
         print("Ratio %s" % getRatio(prices["ABC"], prices["DEF"]))
-        # print("Ratio %s" % getRatio(prices, prices))
